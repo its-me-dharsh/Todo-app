@@ -1,0 +1,142 @@
+.task-field{
+  text-align: center;
+  color: whitesmoke;
+ }
+
+ .field{
+  backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(11,15,13,0.582);
+  border: solid 1px black;
+  padding: 20px;
+  margin: 100px;
+  margin-left: 350px;
+  margin-right: 350px;
+ }
+body{
+  background-image: url("https://w0.peakpx.com/wallpaper/213/560/HD-wallpaper-blue-neon-background-blue-waves-background-abstract-blue-backgrounds-creative-blue-abstraction.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: whitesmoke;
+  /*background-color:whitesmoke ;*/
+
+}
+.text{
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.button{
+  text-align: center;
+  margin-left:45%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  cursor: pointer;
+  border-radius: 2px;
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+  transition-duration: 0.4s;
+  background-color: rgba(11,15,13,0.582);
+    color: white;
+ width:10%;
+}
+
+.button:hover{
+  background-color: rgba(0, 0, 0, 0.583);
+  color: white;
+}
+
+.lists{
+  padding-bottom: 10px;
+
+}
+
+.delete-button{
+  margin-left: 50px;
+  cursor: pointer;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 2px;
+  display: inline-block;
+  background-color: rgba(11,15,13,0.582);
+    color: white;
+  transition-duration: 0.4s;
+}
+
+.delete-button:hover{
+  background-color: rgba(0, 0, 0, 0.583);
+  color: white;
+  box-shadow: inset;
+  
+}
+
+.task-names{
+  
+  margin-right: 100px;
+  font-weight: bold;
+  padding-top: 1px;
+  text-align: center;
+  margin-left: 100px;
+
+}
+
+.lists{
+  padding-bottom: 20px;
+  list-style: none;
+  border: 1px black solid;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.work{
+  font-size: 20px;
+}
+
+.task-names .lists .work.completed {
+  text-decoration: line-through;
+  color: grey;
+  font-weight: normal;
+}
+
+.complete-button{
+  margin-left: 20px;
+  cursor: pointer;
+  padding: 5.5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 2px;
+  display: inline-block;
+  box-shadow: inset;
+  background-color: rgba(11,15,13,0.582);
+    color: white;
+  transition-duration: 0.4s;
+  
+}
+
+.complete-button:hover{
+  background-color: rgba(0, 0, 0, 0.583);
+  color: white;
+  box-shadow: inset;
+  
+}
+
+.complete-button:active{
+  background-color: gray;
+}
+
+.complete-button:active{
+  background-color: gray;
+}
+
+.delete-button:active{
+  background-color: gray;
+}
+
+.button:active{
+  background-color: gray;
+}
